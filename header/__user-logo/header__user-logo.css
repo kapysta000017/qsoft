@@ -1,0 +1,8 @@
+.header__user-logo {
+  display: none;
+}
+@media (max-width: 375px) {
+  .header__user-logo {
+    display: block;
+  }
+}

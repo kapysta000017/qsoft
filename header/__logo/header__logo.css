@@ -1,0 +1,9 @@
+.header__logo {
+  padding-right: 60px;
+}
+@media (max-width: 375px) {
+  .header__logo {
+    flex: 1 0 30%;
+    padding-right: 0px;
+  }
+}

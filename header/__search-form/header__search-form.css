@@ -1,0 +1,19 @@
+.header__search-form {
+  flex-grow: 1;
+}
+@media (max-width: 375px) {
+  .header__search-form {
+    position: relative;
+    order: 1;
+    padding-top: 15px;
+  }
+  .header__search-form::after {
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    width: 375px;
+    height: 1px;
+    left: -20px;
+    background-color: #bbc4d6;
+  }
+}

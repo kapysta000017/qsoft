@@ -1,0 +1,21 @@
+.header__user {
+  text-decoration: none;
+  position: relative;
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+}
+.header__user::before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 1px;
+  top: -17px;
+  left: 60px;
+  background-color: #ebebf1;
+}
+@media (max-width: 375px) {
+  .header__user {
+    display: none;
+  }
+}

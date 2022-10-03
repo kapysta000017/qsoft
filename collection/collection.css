@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.collection {
+  margin: 70px 0px 0px 0px;
+  padding: 0px 100px;
+}
+@media (max-width: 768px) {
+  .collection {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 375px) {
+  .collection {
+    padding-bottom: 73px;
+  }
+}

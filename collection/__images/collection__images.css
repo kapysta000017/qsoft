@@ -1,0 +1,11 @@
+.collection__images {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+@media (max-width: 768px) {
+  .collection__images {
+    gap: 20px;
+  }
+}
